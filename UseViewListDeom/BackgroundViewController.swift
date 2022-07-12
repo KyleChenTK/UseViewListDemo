@@ -35,9 +35,7 @@ class BackgroundViewController: NSViewController {
         self.canvasGroups = self.a
     
         self.generateDisplayTab(displays: self.displayList)
-        
-        print("a")
-        
+       
     }
 
     override var representedObject: Any? {
