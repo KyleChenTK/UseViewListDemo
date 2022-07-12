@@ -36,6 +36,8 @@ class BackgroundViewController: NSViewController {
     
         self.generateDisplayTab(displays: self.displayList)
         
+        print("a")
+        
     }
 
     override var representedObject: Any? {
