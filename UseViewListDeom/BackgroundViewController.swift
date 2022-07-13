@@ -83,9 +83,9 @@ class BackgroundViewController: NSViewController {
             NSLayoutConstraint.activate(constriants)
             
         }
-       
-        //self.myScrollContentView.frame.size.height = CGFloat(self.canvasGroups.count * 300)
         
+        self.myScrollContentView.frame.size.height = CGFloat(self.canvasGroups.count * 300) < self.view.frame.height ? self.view.frame.height : CGFloat(self.canvasGroups.count * 300)
+      
     }
     
     private func removeAllGroupView() {
